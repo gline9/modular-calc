@@ -23,9 +23,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss",
+              "./node_modules/devextreme/dist/css/dx.common.css",
+              "./node_modules/devextreme/dist/css/dx.material.blue.dark.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/devextreme/dist/js/dx.all.js"
+            ]
           },
           "configurations": {
             "production": {
